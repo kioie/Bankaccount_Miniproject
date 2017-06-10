@@ -1,43 +1,69 @@
-***BANK ACCOUNT MINI PROJECT **
+**BANK ACCOUNT MINI PROJECT**
 
-Prerequisites
-* Makes sure that nothing is running on port 8080
-* Ensure that you are running on a linux environment
-* Ensure that you have a working internet connection to be able to download your dependencies
+*Prerequisites*
+Makes sure that nothing is running on port 8080 
+Ensure that you are running on a linux environment
+Ensure that you have a working internet connection to be able to download your dependencies
 
-To launch the application
-* Change directory to the project folder
-* Check for the file launch.sh
-* On your command line execute launch.sh using the command "./launch.sh"
+*To launch the application* 
+Change directory to the project folder 
+Check for the file launch.sh 
+On your command line execute launch.sh using the command 
 
+```
+#!bash
 
-API Endpoints
+./launch.sh
+```
 
-* http://localhost:8080/checkbalance/ 		[GET]
-* http://localhost:8080/deposit/				[POST]
-* http://localhost:8080/withdraw/			[POST]
+**API Endpoints**
 
+http://localhost:8080/checkbalance/ [GET]
 
-API CALLS
+http://localhost:8080/deposit/ [POST]
 
-	To run access the api via curl
-	
-* curl http://localhost:8080/checkbalance/
-* curl -H "Content-Type: application/json" -X POST -d '{"amount":36000}' http://localhost:8080/deposit/
-* curl -H "Content-Type: application/json" -X POST -d '{"amount":22000}' http://localhost:8080/withdraw/
+http://localhost:8080/withdraw/ [POST]
 
+**API CALLS**
 
-TESTING
+To run access the api via curl
 
-* Inside the project directory, run "./start_tests.sh"
-* To access the reports use  build/reports 
-* To access the results use build/test-results
+```
+#!bash
 
-Code Coverage using Jacoco
-
-* To access it, use build/reports/jacoco/test/html/index.html 
+curl http://localhost:8080/checkbalance/
+```
 
 
-Special thanks to
+```
+#!bash
 
-* George Otieno <georgeorti@gmail.com> (for the underlying code base)
+curl -H "Content-Type: application/json" -X POST -d '{"amount":36000}' http://localhost:8080/deposit/
+```
+
+
+```
+#!bash
+
+curl -H "Content-Type: application/json" -X POST -d '{"amount":22000}' http://localhost:8080/withdraw/
+```
+
+**TESTING**
+
+Inside the project directory, run 
+```
+#!bash
+
+./start_tests.sh
+```
+
+To access the reports use build/reports
+To access the results use build/test-results
+
+
+*Code Coverage using Jacoco*
+
+To access it, use build/reports/jacoco/test/html/index.html
+
+**Special thanks to**
+George Otieno georgeorti@gmail.com (*for the underlying code base*)
