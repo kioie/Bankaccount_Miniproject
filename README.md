@@ -1,11 +1,15 @@
 **BANK ACCOUNT MINI PROJECT**
 
 *Prerequisites*
-Makes sure that nothing is running on port 8080 
+
+Makes sure that nothing is running on port *8080*
+
 Ensure that you are running on a linux environment
+
 Ensure that you have a working internet connection to be able to download your dependencies
 
-*To launch the application* 
+***To launch the application***
+
 Change directory to the project folder 
 Check for the file launch.sh 
 On your command line execute launch.sh using the command 
@@ -61,9 +65,10 @@ To access the reports use build/reports
 To access the results use build/test-results
 
 
-*Code Coverage using Jacoco*
+***Code Coverage using Jacoco***
 
 To access it, use build/reports/jacoco/test/html/index.html
 
 **Special thanks to**
+
 George Otieno georgeorti@gmail.com (*for the underlying code base*)
