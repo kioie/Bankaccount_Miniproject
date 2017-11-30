@@ -1,29 +1,24 @@
 package com.BankAccount.test.junit.web.controllers;
 
-import static org.mockito.BDDMockito.given;
-import static org.mockito.Mockito.when;
-import static org.mockito.Matchers.any;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-
+import com.BankAccount.domainObjects.*;
+import com.BankAccount.web.controllers.Withdraw;
+import com.google.gson.Gson;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.BankAccount.domainObjects.DomainAccount;
-import com.BankAccount.domainObjects.SetDate;
-import com.BankAccount.domainObjects.SetTransaction;
-import com.BankAccount.domainObjects.TransactionDomain;
-import com.BankAccount.domainObjects.UserTransaction;
-import com.BankAccount.web.controllers.Withdraw;
-import com.google.gson.Gson;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import static org.mockito.BDDMockito.given;
+import static org.mockito.Matchers.any;
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 
 @RunWith(SpringRunner.class)

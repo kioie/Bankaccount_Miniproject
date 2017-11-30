@@ -1,12 +1,11 @@
 package com.BankAccount;
 
+import com.BankAccount.domainObjects.DomainAccount;
+import com.BankAccount.interfaces.InterfaceAccount;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
-import com.BankAccount.domainObjects.DomainAccount;
-import com.BankAccount.interfaces.InterfaceAccount;
 
 @SpringBootApplication
 public class Main {

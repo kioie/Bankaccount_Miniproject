@@ -1,15 +1,14 @@
 package com.BankAccount.web.controllers;
 
-import java.util.HashMap;
-
+import com.BankAccount.domainObjects.DomainAccount;
+import com.BankAccount.responses.Responses;
 import org.apache.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.BankAccount.domainObjects.DomainAccount;
-import com.BankAccount.responses.Responses;
+import java.util.HashMap;
 
 
 @RestController

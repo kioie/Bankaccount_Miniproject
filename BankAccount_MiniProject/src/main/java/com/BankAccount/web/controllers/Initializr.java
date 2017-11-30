@@ -1,11 +1,10 @@
 package com.BankAccount.web.controllers;
 
+import com.BankAccount.interfaces.InterfaceAccount;
+import com.BankAccount.interfaces.InterfaceTransaction;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import com.BankAccount.interfaces.InterfaceAccount;
-import com.BankAccount.interfaces.InterfaceTransaction;
 
 public class Initializr {
 	

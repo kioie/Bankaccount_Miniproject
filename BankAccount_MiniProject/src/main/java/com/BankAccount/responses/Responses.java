@@ -1,8 +1,8 @@
 package com.BankAccount.responses;
 
-import java.util.HashMap;
-
 import com.BankAccount.interfaces.InterfaceResponses;
+
+import java.util.HashMap;
 
 
 public class Responses implements InterfaceResponses {

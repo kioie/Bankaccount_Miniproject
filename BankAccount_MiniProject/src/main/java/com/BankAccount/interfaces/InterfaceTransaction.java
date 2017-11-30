@@ -1,12 +1,11 @@
 package com.BankAccount.interfaces;
 
-import java.util.Date;
-import java.util.List;
-
+import com.BankAccount.domainObjects.TransactionDomain;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.BankAccount.domainObjects.TransactionDomain;
+import java.util.Date;
+import java.util.List;
 
 
 @Repository
