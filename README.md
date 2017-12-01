@@ -28,7 +28,7 @@ http://localhost:8080/deposit/ [POST]
 
 http://localhost:8080/withdraw/ [POST]
 
-***API CallS***
+***API Calls***
 
 To run access the api via curl
 
