@@ -1,6 +1,6 @@
 **BANK ACCOUNT MINI PROJECT**
 
-*Prerequisites*
+***Prerequisites***
 
 Makes sure that nothing is running on port *8080*
 
@@ -62,7 +62,8 @@ Inside the project directory, run
 ```
 
 To access the reports use build/reports
-To access the results use build/test-results
+
+To access the test results use build/test-results
 
 
 ***Code Coverage using Jacoco***
