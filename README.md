@@ -20,7 +20,7 @@ On your command line execute launch.sh using the command
 ./launch.sh
 ```
 
-**API Endpoints**
+***API Endpoints***
 
 http://localhost:8080/checkbalance/ [GET]
 
@@ -28,7 +28,7 @@ http://localhost:8080/deposit/ [POST]
 
 http://localhost:8080/withdraw/ [POST]
 
-**API CALLS**
+***API CallS***
 
 To run access the api via curl
 
